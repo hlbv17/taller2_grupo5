@@ -1,7 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    
+    border: 2px dashed black;
+    color: red;
+    background: rgb(0, 78, 223);    
+    padding: 4px; /*espacio entre el contenido y el borde*/ 
+
+}
+
+.logo {
+    height: 50px;
+}
+header{
+    background: rgb(117, 0, 0);
+    width: 100%;
+
+}
+.name,.logo,nav{
+    float: left;
+    width: 33.33%;
+    margin: auto;
+}
+
 
 
 /* Iconos SVG */ 
- 
+
 .footer_icon{
    
     padding:10px; 
