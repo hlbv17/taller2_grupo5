@@ -1,39 +1,92 @@
 <!DOCTYPE html>
-<html>
-    <header>
-        <link rel="stylesheet" href="assets/css/estilos.css" /> 
-    </header>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Productos que vendemos"/>
+        <meta name="keywords" content="ropa, vestidos, zapatos, catalogo"/>
+        <link rel="stylesheet" href="assets/css/master.css" />      
+        <link rel="icon" href="assets/img/logo.svg"> 
+        <title>Productos</title>
+        <link rel="stylesheet" href="assets/css/estilos.css" />
+        <style>
+            p{
+                width: 32%;
+                height: 100px;
+                border: solid 2px greenyellow;
+                margin-right: 10px;
+                float: left;
+            }
+
+            img{
+                width: 80px;
+                height: 80px;
+                margin-top: 10px;
+                vertical-align: text-bottom;  
+            }
+
+            h4{
+                color: orange;
+            }
+        </style>
+    </head>
     <body>
-        <section>
-            <h4>Zapatos</h4>
-            <p>
-                Zapato Rojo Nike $150
-                <img src="assets/img/nike.jpg"/>
-                <a href="detalles.html">En Oferta</a>
-            </p>
-            <p>
-                Mocasines de cuero $160
-                <img src="assets/img/mocasines.jpg"/>
-            </p>
-            <p>
-                Zapato taco aguja $96
-                <img src="assets/img/tacones.jpg"/>
-            </p>
-        </section>
-        <section>
-            <h4>Vestidos</h4>
-            <p>
-                Vestido de flores $200
-                <img src="assets/img/vestido_flor.jpeg"/>
-            </p>
-            <p>
-                Vestido mujer amarillo $120
-                <img src="assets/img/vestido_amarillo.jpeg"/>
-            </p>
-            <p>
-                Vestido rosado de niña $80
-                <img src="assets/img/vestido_rosa.jpeg"/>
-            </p>
-        </section>
+        <header>
+            <h1>NOMBRE DE LA TIENDA</h1>
+            <img src="assets/img/logo.svg" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="producto.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto </a></li>
+                </ul>
+            </nav>
+        </header> 
+        <main style="width: 100%">
+            <section>
+                <h4>Zapatos</h4>
+                <p>
+                    Zapato Rojo Nike $150
+                    <img src="assets/img/nike.jpg"/>
+                    <a href="detalles.html">En Oferta</a>
+                </p>
+                <p>
+                    Mocasines de cuero $160
+                    <img src="assets/img/mocasines.jpg"/>
+                </p>
+                <p>
+                    Zapato taco aguja $96
+                    <img src="assets/img/tacones.jpg"/>
+                </p>
+            </section>
+            <section>
+                <h4>Vestidos</h4>
+                <p>
+                    Vestido de flores $200
+                    <img src="assets/img/vestido_flor.jpeg"/>
+                </p>
+                <p>
+                    Vestido mujer amarillo $120
+                    <img src="assets/img/vestido_amarillo.jpeg"/>
+                </p>
+                <p>
+                    Vestido rosado de niña $80
+                    <img src="assets/img/vestido_rosa.jpeg"/>
+                </p>
+            </section>
+        </main>
+        <footer>
+            
+            <address> 
+                 <span> <em>Guayaquil - Ecuador </em></span>
+               
+            </address>
+            <ul class="footer_social">
+                <li><a href="https://twitter.com/" target="_blank"><img src="assets/img/twitter.svg" alt="Twitter" class="footer_icon"></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><img src="assets/img/facebook.svg" alt="Facebook" class="footer_icon"></a></li>
+                <li><a href="https://www.pinterest.com/" target="_blank"><img src="assets/img/pinterest.svg" alt="Pinterest" class="footer_icon"></a></li>
+                <li><a href="https://plus.google.com/" target="_blank"><img src="assets/img/google.svg" alt="Google" class="footer_icon"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img src="assets/img/instagram.svg" alt="Instagram" class="footer_icon"></a></li>
+            </ul>
+        </footer>
     </body>
 </html>
